@@ -15,3 +15,14 @@ class Profile(object):
     
     def like(self):
         self.__likes += 1
+    
+    @classmethod
+    def generate(clazz,file_name):
+        reader = open(file_name, 'r')
+        profiles = []
+        for line in reader:
+            values = line.replace('\n','').split(',')
+            profiles.append(clazz(*values))
+        reader.close()
+        return profiles
+           
