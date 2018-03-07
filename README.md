@@ -1,6 +1,6 @@
 # DATASCIENCE BOOTCAMP
 
-Here you will find some projects using Pynthon in Data Science context, including:
+### Here you will find some projects using Pynthon in Data Science context, including:
 
 ## Data Processing
 
