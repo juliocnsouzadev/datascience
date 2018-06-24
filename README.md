@@ -2,7 +2,7 @@
 
 ### Here you will find some projects using Pynthon in Data Science context, including:
 
-## Data Processing
+## Feature Engineering
 
 ## Data Analysis
 -  Numpy

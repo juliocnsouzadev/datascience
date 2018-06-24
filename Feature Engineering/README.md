@@ -1,0 +1,3 @@
+# Feature Enginnering
+
+Machine learning fit mathmatical models to data in order to derive insights or make predictions. Thse models take features as input. A feature is a numeric representation of an aspect of raw data. Features sit between data and models in the machine learning pipeline. Feature engineering is the act of extraticn features from raw data and transforming them into formats that are suitable for the machine learning model.
