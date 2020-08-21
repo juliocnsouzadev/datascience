@@ -1,7 +1,7 @@
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
-def builMessage(from_email, subject, plain_text_msg, html_text_msg):
+def buildMessage(from_email, subject, plain_text_msg, html_text_msg):
     the_message = MIMEMultipart("alternative")
     the_message['From'] = from_email
     the_message['Subject'] = subject
